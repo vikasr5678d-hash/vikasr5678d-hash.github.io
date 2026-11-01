@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vikas R | Developer Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b1020;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background: #111827;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    color: #60a5fa;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 10%;
+    background: linear-gradient(135deg, #111827, #312e81);
+}
+
+.welcome {
+    color: #93c5fd;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #60a5fa;
+}
+
+.hero h3 {
+    color: #c4b5fd;
+}
+
+.hero p {
+    color: #d1d5db;
+    margin: 15px 0 25px;
+    max-width: 600px;
+}
+
+.btn {
+    display: inline-block;
+    background: #6366f1;
+    color: white;
+    padding: 11px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    width: fit-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #4f46e5;
+}
+
+section {
+    padding: 65px 10%;
+}
+
+h2 {
+    color: #60a5fa;
+    font-size: 29px;
+    margin-bottom: 22px;
+}
+
+.card {
+    background: #172033;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #29364d;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #252f50;
+    color: #93c5fd;
+    padding: 9px 17px;
+    border-radius: 20px;
+}
+
+.project h3 {
+    color: #c4b5fd;
+    margin-bottom: 8px;
+}
+
+.project p {
+    color: #d1d5db;
+}
+
+.project-tag {
+    display: inline-block;
+    margin-top: 12px;
+    color: #93c5fd;
+    font-size: 13px;
+}
+
+.contact a {
+    color: #60a5fa;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact p {
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    background: #111827;
+    padding: 25px;
+    color: #9ca3af;
+}
+
+@media(max-width:600px) {
+    nav {
+        padding: 15px 5%;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav a {
+        margin-left: 7px;
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    section {
+        padding: 45px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <div class="logo">Vikas.R</div>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HOME -->
+<div class="hero">
+
+    <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+    <h1>Hi, I'm <span>Vikas.R</span></h1>
+
+    <h3>CSE Student | Aspiring Developer | Tech Enthusiast</h3>
+
+    <p>
+        I am a first-year Computer Science Engineering
+        student passionate about programming, technology
+        and innovation. I enjoy exploring new technologies,
+        building projects and finding creative solutions
+        to real-world problems.
+    </p>
+
+    <div>
+        <a href="#projects" class="btn">View My Projects</a>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+
+        <p>
+            Hello! I'm Vikas R, a first-year Computer Science
+            Engineering student at Atria Institute of Technology.
+
+            I am interested in programming, software development
+            and emerging technologies.
+
+            I enjoy learning new skills, experimenting with
+            ideas and developing small projects.
+
+            My goal is to continuously improve my technical
+            knowledge, collaborate with other developers and
+            participate in hackathons to solve real-world problems.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+
+    <h2>Education</h2>
+
+    <div class="card">
+
+        <h3>Atria Institute of Technology</h3>
+
+        <p>Course: Computer Science Engineering (CSE)</p>
+
+        <p>Year: 1st Year</p>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+    <h2>My Technical Skills</h2>
+
+    <div class="card skills">
+
+        <span>HTML</span>
+        <span>C</span>
+        <span>C++</span>
+        <span>Python</span>
+        <span>Vibe Coding</span>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="card project">
+
+        <h3>01. Placement Preparation Path Website</h3>
+
+        <p>
+            A website designed to provide students with
+            a structured path for placement preparation
+            and help them understand the preparation journey.
+        </p>
+
+        <span class="project-tag">
+            Web Development | Education
+        </span>
+
+    </div>
+
+    <div class="card project">
+
+        <h3>02. Tic-Tac-Toe Game Using C</h3>
+
+        <p>
+            A simple Tic-Tac-Toe game developed using
+            the C programming language. It helps players
+            enjoy the classic two-player game while
+            demonstrating programming logic.
+        </p>
+
+        <span class="project-tag">
+            C Programming | Game Development
+        </span>
+
+    </div>
+
+    <div class="card project">
+
+        <h3>03. Simple UI Calculator Using C</h3>
+
+        <p>
+            A basic calculator project developed using C,
+            designed to perform simple mathematical
+            operations through a user interface.
+        </p>
+
+        <span class="project-tag">
+            C Programming | Calculator
+        </span>
+
+    </div>
+
+</section>
+
+<!-- CAREER INTEREST -->
+<section id="interest">
+
+    <h2>My Interests</h2>
+
+    <div class="card">
+
+        <p>
+            I am currently exploring different technologies
+            and discovering areas of software development
+            that interest me.
+
+            I enjoy learning, experimenting, collaborating
+            and continuously improving my skills.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+    <h2>Connect With Me</h2>
+
+    <div class="card contact">
+
+        <p>
+            Email:
+            <a href="mailto:vikasr5678d@gmail.com">
+                vikasr5678d@gmail.com
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/vikasr5678d-hash"
+               target="_blank">
+                Visit My GitHub Profile
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/vikas-r-656373436/"
+               target="_blank">
+                Connect With Me
+            </a>
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <p>© 2026 Vikas.R | Personal Portfolio</p>
+
+    <p>Learning Today, Building Tomorrow.</p>
+
+</footer>
+
+</body>
+          </html>
+          
